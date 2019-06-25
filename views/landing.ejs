@@ -1,16 +1,106 @@
 <% include ./partials/header %>
 
-        <section class='section-1'>
+        <header class='header'>
 			<div class='container level-item has-text-centered'>
-				<div class=''>
-					<h1>
-					AHouse Real Estate
-				</h1>
+				<div class='text-center'>
+					<h1 >
+						<img class='banner' src='https://cdn-images-1.medium.com/max/945/1*aYD002x4UBQ4iJCRbiKJrg.png'>House Real Estate
+					</h1>
+					<h3 class='text-center banner-p'>
+						Local Agents who put <u>YOU</u> First
+					</h3>
+				</div>
+			</div>
+		</header>
+		<!-- End Header -->
+
+		<section class='section-1'>
+			<div class='container-fluid'>
+				<div class='container'>
+					<h2 class='text-center'>
+						What We Offer
+						<hr>
+					</h2>
 				</div>
 				
+				<div class='row d-flex'>
+					<div class="card col-lg-3 col-md-5 col-sm-12" style="width: 18rem;">
+					  <img src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<h5 class='card-text text-center'>
+							No pressure, stress free buying.
+						  </h5>
+						<p class="card-text text-center">We help our Clients find the <em>right</em> house. We <em>always</em> listen and take as much time as needed to secure just the perfect place.</p>
+					  </div>
+					</div>
+						<!-- End First Card -->
+					<div class="card col-lg-3 col-md-5 col-sm-12 d-flex" style="width: 18rem;">
+					  <img src="https://images.unsplash.com/photo-1526948531399-320e7e40f0ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<h5 class='card-text text-center'>
+							You're working with the best team possible.
+						</h5>
+						<p class="card-text text-center">Our Client's are always 100% <em>satisfied</em>. Whether you're a <u>Buyer</u> or a <u>Seller</u>, happiness is our <em>guarantee</em>. We have procured our Agents from across the nation that have a track record of success and overall satisfaction.</p>
+					  </div>
+					</div>
+						<!-- End Second Card -->
+					<div class="card col-lg-3 col-md-5 col-sm-12 d-flex" style="width: 18rem;">
+					  <img src="https://images.unsplash.com/photo-1494888427482-242d32babc0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<h5 class='card-text text-center'>
+							Buying or Selling, we keep our commission low to ensure you get what you deserve.
+						</h5>
+						<p class="card-text text-center">We charge <em>significantly</em> less than the competition. How can we do this? We're confident that you will come back to us again or tell a friend about the amazing experience.</p>
+					  </div>
+						<!-- End Third Card -->
+					</div>
+				</div>
 			</div>
-			  
 		</section>
-		
+		<!-- End Section-1 -->
+
+		<section class='section-2'>
+			<div class='container'>
+				<h2 class='text-center'>
+					Curious About Pricing?
+					<hr>
+				</h2>
+				<form action='/pricing' method='GET'>
+					<button class="btn btn-lg btn-outline-primary btn-block">
+						See Our Pricing page
+					</button>
+				</form>
+				
+			</div>
+		</section>
+		<!-- End Section-2 -->
+
+		<Section class='section-3'>
+			<div class='container'>
+				<h3 class='text-center'>
+					Contact Us if you want to get the most out of your House Experience!
+					<hr>
+				</h3>
+				<form action='/' method='POST'>
+					<div class='contact'>
+						<div class='form-group'>
+							<label for='name'>Name:</label>
+							<input class='form-control' type='text' name='name' placeholder='Full Name' required>
+						</div>
+						<div class='form-group'>
+							<label for='email'>E-Mail:</label>
+							<input class='form-control' type='email' name='email' placeholder='house@gmail.com' required>
+						</div>
+						<div class='form-group'>
+							<label for='number'>Phone Number: <br> Dash format e.g. (123-456-7890) </label>
+							<input class='form-control' type='tel' name='phone' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='123-456-7890' data-valid-example='123-456-7890' required>
+						</div>
+					</div>
+						<button class="btn btn-lg btn-outline-primary btn-block bottom">
+							Connect!
+						</button>
+					
+				</form>
+			</div>
 
 <% include ./partials/footer %>

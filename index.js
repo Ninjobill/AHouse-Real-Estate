@@ -2,7 +2,7 @@ const express 		= require('express'),
 	  app 			= express(),
 	  bodyParser 	= require('body-parser');
 
-
+app.use(express.static(__dirname + '/public'));
 
 app.set('view engine', 'ejs');
 
@@ -13,6 +13,15 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
 	res.render('about');
 });
+
+app.get('/pricing', (req, res) => {
+	res.render('pricing');
+});
+
+app.post('/', (req, res)  => {
+	res.render('landing');
+});
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
