@@ -1,19 +1,5 @@
 <% include ./partials/header %>
 
-        <header class='header'>
-			<div class='container level-item has-text-centered'>
-				<div class='text-center'>
-					<h1 >
-						<img class='banner' src='https://cdn-images-1.medium.com/max/945/1*aYD002x4UBQ4iJCRbiKJrg.png'>House Real Estate
-					</h1>
-					<h3 class='text-center banner-p'>
-						Local Agents who put <u>YOU</u> First
-					</h3>
-				</div>
-			</div>
-		</header>
-		<!-- End Header -->
-
 		<section class='section-1'>
 			<div class='container-fluid'>
 				<div class='container'>
@@ -50,7 +36,7 @@
 						<h5 class='card-text text-center'>
 							Buying or Selling, we keep our commission low to ensure you get what you deserve.
 						</h5>
-						<p class="card-text text-center">We charge <em>significantly</em> less than the competition. How can we do this? We're confident that you will come back to us again or tell a friend about the amazing experience.</p>
+						<p class="card-text text-center">We charge <em>significantly</em> less than the competition. How can we do this? We're confident that you will come back to us again or tell a friend about the <u>amazing experience.</u></p>
 					  </div>
 						<!-- End Third Card -->
 					</div>
@@ -62,18 +48,21 @@
 		<section class='section-2'>
 			<div class='container'>
 				<h2 class='text-center'>
-					Curious About Pricing?
+					Curious About Pricing? or want to meet our Agents?
 					<hr>
 				</h2>
-				<form action='/pricing' method='GET'>
+				<form action='/pricing' method='GET' class='float-left'>
 					<button class="btn btn-lg btn-outline-primary btn-block">
 						See Our Pricing page
 					</button>
 				</form>
-				
+				<form action='/about' method='GET' class='float-right'>
+					<button class="btn btn-lg btn-outline-success btn-block">
+						About us
+					</button>
+				</form>
 			</div>
 		</section>
-		<!-- End Section-2 -->
 
 		<Section class='section-3'>
 			<div class='container'>
