@@ -43,7 +43,7 @@ header {
 	background-size: cover;
 	background-position: center;
 	padding: 10%;
-	margin-bottom: 40px;
+	margin: 60px 0 40px 0;
 	
 }
 /* Section 1 */
@@ -130,8 +130,31 @@ form {
 	margin-bottom: 40px;
 }
 
+.contact-agent:after {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #000000;
+	width: 50%;
+	margin: 10px auto;
+ }
+
 hr {
 	box-shadow: 1px 1px 1px black;
+}
+
+.pricing-about {
+	background: #fff;
+	padding: 40px 0;
+	margin-top: -40px;
+}
+
+
+.pricing-info:after {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #000000;
+	width: 50%;
+	margin: 10px auto;
 }
 
 /* Generic styling */
