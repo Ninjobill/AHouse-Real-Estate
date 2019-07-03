@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Ninjobill/AHouse-Real-Estate/issues"
   },
-  "homepage": "https://github.com/Ninjobill/AHouse-Real-Estate#readme",
+  "homepage": "https://github.com/Ninjobill/AHouse-Real-Estate#index.html",
   "dependencies": {
     "body-parser": "^1.19.0",
     "bulma": "^0.7.5",
