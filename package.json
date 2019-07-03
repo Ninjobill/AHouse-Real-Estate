@@ -4,7 +4,8 @@
   "description": "Real Estate website featuring houses across America.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,10 +17,9 @@
   "bugs": {
     "url": "https://github.com/Ninjobill/AHouse-Real-Estate/issues"
   },
-  "homepage": "https://github.com/Ninjobill/AHouse-Real-Estate#index.html",
+  "homepage": "https://github.com/Ninjobill/AHouse-Real-Estate/index.html",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "bulma": "^0.7.5",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "mongoose": "^5.6.0",
