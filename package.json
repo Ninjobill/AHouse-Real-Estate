@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Ninjobill/AHouse-Real-Estate/issues"
   },
-  "homepage": "https://github.com/Ninjobill/AHouse-Real-Estate/views/landing.html",
+  "homepage": "https://ninjobill.github.io/AHouse-Real-Estate/",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
