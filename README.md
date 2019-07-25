@@ -7,5 +7,4 @@ Express.js
 Semantic HTML5
 CSS3
 Bootstrap
-JQuery/AJAX
 FontAwesome
