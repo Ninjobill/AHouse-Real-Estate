@@ -42,8 +42,8 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding: 10%;
-	margin: 60px 0 40px 0;
+	padding: 12%;
+	margin: 80px 0 40px 0;
 	
 }
 /* Section 1 */
@@ -148,6 +148,13 @@ hr {
 	margin-top: -40px;
 }
 
+.pricing h2{
+	padding: 0 20px 20px 20px;
+}
+
+.pricing h5 {
+	padding: 20px;
+}
 
 .pricing-info:after {
     content: " ";
