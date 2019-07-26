@@ -7,5 +7,7 @@ Express.js
 Semantic HTML5
 CSS3
 Bootstrap
-JQuery/AJAX
 FontAwesome
+
+## Update 07/25/19
+To add Listings soon
